@@ -1,39 +1,95 @@
 var geoJson = [{
   "type": "FeatureCollection",
-  "features": [
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Brandenburg Gate",
-		"marker-size": "medium",
-	"marker-color": "#3366FF",
-	"marker-symbol": "star-stroked",
-	"images":[[ "images/Brandenburger_Tor_abends.jpg", "The Brandenburg Gate."],[ "images/Brandenburger2.jpg", "The Brandengurb Gate quadriga at night."]]},
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.377674",
-          "52.516224"
+  "features": [{
+    "type": "Feature",
+    "properties": {
+      "title": "Hotel Stadt Berlin",
+      "marker-size": "medium",
+      "marker-color": "#6600CC",
+      "marker-symbol": "star-stroked",
+      "images": [
+        [
+          '<img src="images/Bundesarchiv_Bild_183-R0513-0027,_Berlin,_Alexanderplatz,_Hotel_"Stadt_Berlin".jpg" />',
+          "Hotel Stadt Berlin."
+        ],
+        ['<img src="images/Brandenburger2.jpg" />',
+          "The Brandengurg Gate quadriga at night."
         ]
-      }
-      }
-    ,
-    {
-      "type": "Feature",
-      "properties": {
-        "title": "Colleges at Kissam",
-        "marker-size": "medium",
-	"marker-color": "#e5c278",
-	"marker-symbol": "star-stroked",
-	"images":[["images/pa.bld.kish.019.jpg", "The original Kissam Hall was built in 1901 as a men's dormitory.  It was torn down and replaced with a newer version of Kissam Hall in 1958."],["images/pa.com.1973.466.jpg", " Outdated and in need of renovation, the building was razed in 1958 to make way for Kissam Quadrangle. "],["images/pa.bld.kisq.007.jpg", "Kissam Quadrangle consisted of six dorms that housed 100 men each."],["images/pa.bld.kish.031.jpg", " Kissam Quadrangle found a similar fate to its predecessor when it was razed to make room for the Colleges at Kissam."],["images/render.jpg", "The site is currently composed of Warren and Moore Colleges which are part of Residence Education's college hall system. "]]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.363061",
-          "52.5881"
-        ]
-      }
+      ]
     },
-  ]
-  }];
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.413259",
+        "52.522665"
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "title": "Koeningsplatz",
+      "marker-size": "medium",
+      "marker-color": "#e5c278",
+      "marker-symbol": "star-stroked",
+      "images": [
+        [
+          '<img src="images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg" />',
+          "The Reichstag building."
+        ]
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.376199",
+        "52.517539"
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "title": "Palast der Republik",
+      "marker-size": "medium",
+      "marker-color": "#99FF33",
+      "marker-symbol": "star-stroked",
+      "images": [
+        [
+          '<img src="images/250px-Bundesarchiv_Bild_183-R0821-400,_Berlin,_Palast_der_Republik.jpg" />',
+          "Palast der Republik."
+        ]
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.402778",
+        "52.5175"
+      ]
+    }
+  }, {
+    "type": "Feature",
+    "properties": {
+      "title": "Staatsoper",
+      "marker-size": "medium",
+      "marker-color": "#66FF99",
+      "marker-symbol": "star-stroked",
+      "images": [
+        [
+          '<img src="images/Bundesarchiv_Bild_183-11116-0001,_Berlin,_Deutsche_Staatsoper,_Außenansicht.jpg" />',
+          "Staatsoper."
+        ],
+        [
+          '<img src="images/300px-Staatsoper_Berlin_Nacht.jpg" />',
+          "Staatsoper."
+        ]
+      ]
+    },
+    "geometry": {
+      "type": "Point",
+      "coordinates": [
+        "13.3947554",
+        "52.5162434"
+      ]
+    }
+  }, ]
+}];
