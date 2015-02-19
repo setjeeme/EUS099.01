@@ -1,100 +1,104 @@
 var geoJson = [{
-  "type": "FeatureCollection",
-  "features": [{
-    "type": "Feature",
-    "properties": {
-      "title": "Palasthotel Berlin",
-      "marker-size": "medium",
-      "marker-color": "#6600CC",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          "<img src=\"images/220px-Bundesarchiv_Bild_183-1985-0415-029,_Berlin,_Palasthotel,_Schubschiff_auf_Spree.jpg\" />",
-          "Palasthotel Berlin."
-        ],
-        [
-          "<img src=\"images/Berlin-Alexanderplatz_-_Park_Inn_1.jpg\" />",
-          "Site of Park Inn today."
+    "type": "FeatureCollection",
+    "features": [{
+      "type": "Feature",
+      "properties": {
+        "title": "Hotel Stadt Berlin",
+        "marker-size": "medium",
+        "marker-color": "#6600CC",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            "<img src=\"images/Bundesarchiv_Bild_183-R0513-0027,_Berlin,_Alexanderplatz,_Hotel_Stadt_Berlin.jpg\">",
+            "Palasthotel Berlin."
+            "
+          ],
+          [
+            ""
+            images / Berlin - Alexanderplatz_ - _Park_Inn_1.jpg ",
+            "Site of Park Inn today."
+          ]
         ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.402778",
-        "52.536389"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Grandhotel",
-      "marker-size": "medium",
-      "marker-color": "#e5c278",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-          "Grandhotel Berlin."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.412778",
+          "52.522778"
         ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.0926475",
-        "52.5856166"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Grandhotel Berlin",
-      "marker-size": "medium",
-      "marker-color": "#99FF33",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-          "Grandhotel Berlin."
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Grandhotel",
+        "marker-size": "medium",
+        "marker-color": "#e5c278",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
+            "Grandhotel Berlin."
+          ]
         ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.0926475",
-        "52.5856166"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Staatsoper",
-      "marker-size": "medium",
-      "marker-color": "#66FF99",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-          "Staatsoper."
-        ],
-        [
-          "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-          "Grandhotel Berlin."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.0926475",
+          "52.5856166"
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Grandhotel Berlin",
+        "marker-size": "medium",
+        "marker-color": "#99FF33",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
+            "Grandhotel Berlin."
+          ]
+        ]
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.0926475",
+          "52.5856166"
+        ]
+      }
+    }, {
+      "type": "Feature",
+      "properties": {
+        "title": "Staatsoper",
+        "marker-size": "medium",
+        "marker-color": "#66FF99",
+        "marker-symbol": "star-stroked",
+        "images": [
+          [
+            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
+            "Staatsoper."
+          ],
+          [
+            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
+            "Grandhotel Berlin."
 
+          ]
         ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.3947554",
-        "52.5162434"
-      ]
-    }
-  }, ]
-}];
-'
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          "13.3947554",
+          "52.5162434"
+        ]
+      }
+    }, ]
+  },
+
+
+];
 
 ,
