@@ -1,95 +1,95 @@
 var geoJson = [{
-  "type": "FeatureCollection",
-  "features": [{
-    "type": "Feature",
-    "properties": {
-      "title": "Hotel Stadt Berlin",
-      "marker-size": "medium",
-      "marker-color": "#6600CC",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          '<img src="images/Bundesarchiv_Bild_183-R0513-0027,_Berlin,_Alexanderplatz,_Hotel_"Stadt_Berlin".jpg" />',
-          "Hotel Stadt Berlin."
-        ],
-        ['<img src="images/Brandenburger2.jpg" />',
-          "The Brandengurg Gate quadriga at night."
-        ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.413259",
-        "52.522665"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Koeningsplatz",
-      "marker-size": "medium",
-      "marker-color": "#e5c278",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          '<img src="images/Reichstag_building_Berlin_view_from_west_before_sunset.jpg" />',
-          "The Reichstag building."
-        ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.376199",
-        "52.517539"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Palast der Republik",
-      "marker-size": "medium",
-      "marker-color": "#99FF33",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          '<img src="images/250px-Bundesarchiv_Bild_183-R0821-400,_Berlin,_Palast_der_Republik.jpg" />',
-          "Palast der Republik."
-        ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.402778",
-        "52.5175"
-      ]
-    }
-  }, {
-    "type": "Feature",
-    "properties": {
-      "title": "Staatsoper",
-      "marker-size": "medium",
-      "marker-color": "#66FF99",
-      "marker-symbol": "star-stroked",
-      "images": [
-        [
-          '<img src="images/Bundesarchiv_Bild_183-11116-0001,_Berlin,_Deutsche_Staatsoper,_Außenansicht.jpg" />',
-          "Staatsoper."
-        ],
-        [
-          '<img src="images/300px-Staatsoper_Berlin_Nacht.jpg" />',
-          "Staatsoper."
-        ]
-      ]
-    },
-    "geometry": {
-      "type": "Point",
-      "coordinates": [
-        "13.3947554",
-        "52.5162434"
-      ]
-    }
-  }, ]
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"title": "Hotel Stadt Berlin",
+			"marker-size": "medium",
+			"marker-color": "#6600CC",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					'<img src="images/Bundesarchiv_Bild_183-R0513-0027,_Berlin,_Alexanderplatz,_Hotel_"Stadt_Berlin".jpg" />',
+					"Hotel Stadt Berlin."
+				],
+				['<img src="images/Brandenburger2.jpg" />',
+					"Hotel Stadt Berlin."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.413259",
+				"52.522665"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "Palasthotel",
+			"marker-size": "medium",
+			"marker-color": "#e5c278",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					'<img src="images/220px-Bundesarchiv_Bild_183-1985-0415-029,_Berlin,_Palasthotel,_Schubschiff_auf_Spree-1.jpg" />',
+					"Palasthotel."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.2410",
+				"52.3211"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "Grandhotel Berlin",
+			"marker-size": "medium",
+			"marker-color": "#99FF33",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					'<img src="images/Westin_Grand_Berlin_Friedrichstra%C3%9Fe.jpg" />',
+					"Grandhotel Berlin."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.0926475",
+				"52.5856166"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "Staatsoper",
+			"marker-size": "medium",
+			"marker-color": "#66FF99",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					'<img src="images/Bundesarchiv_Bild_183-11116-0001,_Berlin,_Deutsche_Staatsoper,_Außenansicht.jpg" />',
+					"Staatsoper."
+				],
+				[
+					'<img src="images/300px-Staatsoper_Berlin_Nacht.jpg" />',
+					"Staatsoper."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.3947554",
+				"52.5162434"
+			]
+		}
+	}, ]
 }];
