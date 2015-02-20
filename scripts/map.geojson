@@ -1,130 +1,96 @@
 var geoJson = [{
-    "type": "FeatureCollection",
-    "features": [{
-      "type": "Feature",
-      "properties": {
-        "title": "Hotel Stadt Berlin",
-        "marker-size": "medium",
-        "marker-color": "#6600CC",
-        "marker-symbol": "star-stroked",
-        "images": [
-          [
-            "<img src=\"images/Bundesarchiv_Bild_183-H0824-0030,_Berlin,_Alexanderplatz,_Hotel_'Stadt_Berlin',_Fernsehturm.jpg\">",
-            "Hotel Stadt Berlin by Hubert Link, 24 August 1973."
-            "
-          ],
-          [
-            ""
-            images / 256 px - ParkInnNew.jpg ",
-            "Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
-          ]
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.4129018",
-          "52.5227852"
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "title": "Grandhotel",
-        "marker-size": "medium",
-        "marker-color": "#e5c278",
-        "marker-symbol": "star-stroked",
-        "images": [
-          [
-            "<img src=\"images/Bundesarchiv_Bild_183-1987-0812-301,_Berlin,_'Grand_Hotel'.jpg\" />",
-            "Grand Hotel by Peter Heinz Junge, 12 August 1887, hotel opened in 1987."
-          ]
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.0926475",
-          "52.5856166"
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "title": "The Westin",
-        "marker-size": "medium",
-        "marker-color": "#99FF33",
-        "marker-symbol": "star-stroked",
-        "images": [
-          [
-            "<img src=\"images/128px-Westin_Grand_Berlin_Friedrichstraße.jpg\" />",
-            "The Westin by Mklreg, 2006 (own work)."
-          ]
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.3841339",
-          "52.5161094"
-        ]
-      }
-    }, {
-      "type": "Feature",
-      "properties": {
-        "title": "Domhotel",
-        "marker-size": "medium",
-        "marker-color": "#66FF99",
-        "marker-symbol": "star-stroked",
-        "images": [
-          [
-            "<img src=\"images/Bundesarchiv_Bild_183-1990-1130-300,_Berlin,_'Domhotel'.jpg\" />",
-            "Domhotel by Thomas Lehmann, 30 November 1990."
-          ],
-          [
-            "<img src=\"images/Foyer_im_Hilton_Berlin.jpg\" />",
-            "Hilton Berlin by Andrevishay, 25 August 2007."
-
-          ]
-        ]
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          "13.392806",
-          "52.5122"
-        ]
-      }
-    }, ]
-  },
-
-
-];
-
-, {
-  "type": "Feature",
-  "properties": {
-    "title": "Palasthotel",
-    "marker-size": "medium",
-    "marker-color": "#66FF99",
-    "marker-symbol": "star-stroked",
-    "images": [
-      [
-        "<img src=\"images/Bundesarchiv_Bild_183-1983-0713-014,_Berlin,_'Palasthotel',_Fernsehturm,_Rotes_Rathaus.jpg\" />",
-        "Palasthotel by Hubert Link, 13 July 1983."
-      ],
-      [
-        "<img src=\"images/Berlin-Mitte_DomAquaree_05-2014.jpg\" />",
-        "Radisson Blu by A. Savin, 23 May 2014."
-
-      ]
-    ]
-  },
-  "geometry": {
-    "type": "Point",
-    "coordinates": [
-      "13.402749",
-      "52.519617"
-    ]
-  }
-}
+	"type": "FeatureCollection",
+	"features": [{
+		"type": "Feature",
+		"properties": {
+			"title": "Hotel Stadt Berlin",
+			"marker-size": "medium",
+			"marker-color": "#6600CC",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					"<img src=\"images/Bundesarchiv_Bild_183-H0824-0030,_Berlin,_Alexanderplatz,_Hotel_'Stadt_Berlin',_Fernsehturm.jpg\">",
+					"Hotel Stadt Berlin by Hubert Link, 24 August 1973."
+				],
+				[
+					"<img src=\"images / 256 px - ParkInnNew.jpg ",
+					"Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.4129018",
+				"52.5227852"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "Grandhotel",
+			"marker-size": "medium",
+			"marker-color": "#e5c278",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					"<img src=\"images/Bundesarchiv_Bild_183-1987-0812-301,_Berlin,_'Grand_Hotel'.jpg\" />",
+					"Grand Hotel by Peter Heinz Junge, 12 August 1887, hotel opened in 1987."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.0926475",
+				"52.5856166"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "The Westin",
+			"marker-size": "medium",
+			"marker-color": "#99FF33",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					"<img src=\"images/128px-Westin_Grand_Berlin_FriedrichstraÃŸe.jpg\" />",
+					"The Westin by Mklreg, 2006 (own work)."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.3841339",
+				"52.5161094"
+			]
+		}
+	}, {
+		"type": "Feature",
+		"properties": {
+			"title": "Domhotel",
+			"marker-size": "medium",
+			"marker-color": "#66FF99",
+			"marker-symbol": "star-stroked",
+			"images": [
+				[
+					"<img src=\"images/Bundesarchiv_Bild_183-1990-1130-300,_Berlin,_'Domhotel'.jpg\" />",
+					"Domhotel by Thomas Lehmann, 30 November 1990."
+				],
+				[
+					"<img src=\"images/Foyer_im_Hilton_Berlin.jpg\" />",
+					"Hilton Berlin by Andrevishay, 25 August 2007."
+				]
+			]
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [
+				"13.392806",
+				"52.5122"
+			]
+		}
+	}]
+}]
