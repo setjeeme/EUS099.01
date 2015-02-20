@@ -34,7 +34,7 @@ var geoJson = [{
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
-					"<img src=\"images/Bundesarchiv_Bild_183-1987-0812-301,_Berlin,_'Grand_Hotel'.jpg\" />",
+					"<img src=\"images/Bundesarchiv_Bild_183-1987_Berlin_'Grand_Hotel'.jpg\" />",
 					"Grand Hotel by Peter Heinz Junge, 12 August 1887, hotel opened in 1987."
 				]
 			]
