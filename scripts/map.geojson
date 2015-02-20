@@ -57,7 +57,7 @@ var geoJson = [{
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<img src=\"images/256px-Westin_Grand_Berlin_Friedrichstraße.jpg\" />",
+            "<img src=\"images/128px-Westin_Grand_Berlin_Friedrichstraße.jpg\" />",
             "The Westin by Mklreg, 2006 (own work)."
           ]
         ]
