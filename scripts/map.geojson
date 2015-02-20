@@ -30,7 +30,7 @@ var geoJson = [{
 		"properties": {
 			"title": "Grandhotel",
 			"marker-size": "medium",
-			"marker-color": "#e5c278",
+			"marker-color": "#FF3300",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
@@ -72,7 +72,7 @@ var geoJson = [{
 		"properties": {
 			"title": "Domhotel",
 			"marker-size": "medium",
-			"marker-color": "#66FF99",
+			"marker-color": "#527ACC",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
