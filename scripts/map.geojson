@@ -72,7 +72,7 @@ var geoJson = [{
 		"properties": {
 			"title": "Domhotel",
 			"marker-size": "medium",
-			"marker-color": "#527ACC",
+			"marker-color": "#FFFF00",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
