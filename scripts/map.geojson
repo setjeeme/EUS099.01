@@ -9,22 +9,22 @@ var geoJson = [{
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<img src=\"images/Bundesarchiv_Bild_183-R0513-0027,_Berlin,_Alexanderplatz,_Hotel_Stadt_Berlin.jpg\">",
-            "Palasthotel Berlin."
+            "<img src=\"images/Bundesarchiv_Bild_183-H0824-0030,_Berlin,_Alexanderplatz,_Hotel_'Stadt_Berlin',_Fernsehturm.jpg\">",
+            "Hotel Stadt Berlin by Hubert Link, 24 August 1973."
             "
           ],
           [
             ""
-            images / Berlin - Alexanderplatz_ - _Park_Inn_1.jpg ",
-            "Site of Park Inn today."
+            images / 256 px - ParkInnNew.jpg ",
+            "Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
           ]
         ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.412778",
-          "52.522778"
+          "13.4129018",
+          "52.5227852"
         ]
       }
     }, {
@@ -36,8 +36,8 @@ var geoJson = [{
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-            "Grandhotel Berlin."
+            "<img src=\"images/Bundesarchiv_Bild_183-1987-0812-301,_Berlin,_'Grand_Hotel'.jpg\" />",
+            "Grand Hotel by Peter Heinz Junge, 12 August 1887, hotel opened in 1987."
           ]
         ]
       },
@@ -51,39 +51,39 @@ var geoJson = [{
     }, {
       "type": "Feature",
       "properties": {
-        "title": "Grandhotel Berlin",
+        "title": "The Westin",
         "marker-size": "medium",
         "marker-color": "#99FF33",
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-            "Grandhotel Berlin."
+            "<img src=\"images/256px-Westin_Grand_Berlin_Friedrichstraße.jpg\" />",
+            "The Westin by Mklreg, 2006 (own work)."
           ]
         ]
       },
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.0926475",
-          "52.5856166"
+          "13.3841339",
+          "52.5161094"
         ]
       }
     }, {
       "type": "Feature",
       "properties": {
-        "title": "Staatsoper",
+        "title": "Domhotel",
         "marker-size": "medium",
         "marker-color": "#66FF99",
         "marker-symbol": "star-stroked",
         "images": [
           [
-            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-            "Staatsoper."
+            "<img src=\"images/Bundesarchiv_Bild_183-1990-1130-300,_Berlin,_'Domhotel'.jpg\" />",
+            "Domhotel by Thomas Lehmann, 30 November 1990."
           ],
           [
-            "<img src=\"images/Brandenburger_Tor_abends.jpg\" />",
-            "Grandhotel Berlin."
+            "<img src=\"images/Foyer_im_Hilton_Berlin.jpg\" />",
+            "Hilton Berlin by Andrevishay, 25 August 2007."
 
           ]
         ]
@@ -91,8 +91,8 @@ var geoJson = [{
       "geometry": {
         "type": "Point",
         "coordinates": [
-          "13.3947554",
-          "52.5162434"
+          "13.392806",
+          "52.5122"
         ]
       }
     }, ]
@@ -101,4 +101,30 @@ var geoJson = [{
 
 ];
 
-,
+, {
+  "type": "Feature",
+  "properties": {
+    "title": "Palasthotel",
+    "marker-size": "medium",
+    "marker-color": "#66FF99",
+    "marker-symbol": "star-stroked",
+    "images": [
+      [
+        "<img src=\"images/Bundesarchiv_Bild_183-1983-0713-014,_Berlin,_'Palasthotel',_Fernsehturm,_Rotes_Rathaus.jpg\" />",
+        "Palasthotel by Hubert Link, 13 July 1983."
+      ],
+      [
+        "<img src=\"images/Berlin-Mitte_DomAquaree_05-2014.jpg\" />",
+        "Radisson Blu by A. Savin, 23 May 2014."
+
+      ]
+    ]
+  },
+  "geometry": {
+    "type": "Point",
+    "coordinates": [
+      "13.402749",
+      "52.519617"
+    ]
+  }
+}
