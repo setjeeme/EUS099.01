@@ -51,7 +51,7 @@ var geoJson = [{
 		"properties": {
 			"title": "The Westin",
 			"marker-size": "medium",
-			"marker-color": "#99FF33",
+			"marker-color": "#FF6699",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
