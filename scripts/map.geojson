@@ -3,43 +3,43 @@ var geoJson = [{
 	"features": [{
 		"type": "Feature",
 		"properties": {
-			"title": "Hotel Stadt Berlin",
+			"title": "Palasthotel and Radisson Blu with Aquadom aquarium",
 			"marker-size": "medium",
 			"marker-color": "#6600CC",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
-					"<img src=\"images/Bundesarchiv_Bild_183-H0824-0030,_Berlin,_Alexanderplatz,_Hotel_'Stadt_Berlin',_Fernsehturm.jpg\">",
-					"Hotel Stadt Berlin by Hubert Link, 24 August 1973."
+					"<img src=\"images/Bundesarchiv_Bild_183-1985-0415-029,_Berlin,_Palasthotel,_Schubschiff_auf_Spree.jpg\">",
+					"The Palasthotel was an Interhotel finished in 1979 with restaurants and bars. It was one of the places where young women from the East could meet and dance with West German businessmen and guests (incl. Bruce Springsteen) in hope that they would bring them Western products on another visit. Heavily bugged, with cameras! Called the “Stasi Nest.” Sources: Wikipedia and personal interviews."
 				],
 				[
-					"<img src=\"images/Park_Inn_New.jpg\" />",
-					"Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
+					"<img src=\"images/AquaDom_von_Oben.jpg\" />",
+					"Radisson Blu (Domkarree Radisson)."
 				]
 			]
 		},
 		"geometry": {
 			"type": "Point",
 			"coordinates": [
-				"13.4129018",
-				"52.5227852"
+				"13.402749",
+				"52.519617"
 			]
 		}
 	}, {
 		"type": "Feature",
 		"properties": {
-			"title": "Grandhotel",
+			"title": "Hotel Stadt Berlin and Park Inn",
 			"marker-size": "medium",
 			"marker-color": "#FF3300",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
-					"<img src=\"images/Park_Inn_New.jpg\" />",
-					"Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
+					"<img src=\"images/Bundesarchiv_Bild_183-H0824-0030,_Berlin,_Alexanderplatz,_Hotel_'Stadt_Berlin',_Fernsehturm.jpg\" />",
+					"Hotel Stadt Berlin by Hubert Link, 24 August 1973. As one of the first Interhotels, the Hotel Stadt Berlin was a landmark skyscraper built 1967-70. With 2000 beds and room for 1900 to dine in many venues, guests visited bars like the Panorama Restaurant on the 37th floor (today’s famous Panorama Bar). The exterior was covered in glossy tones of blue glass and aluminum with wood. Many artists designed the interior. Source: ddr-wissen.de. Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade."
 				],
 				[
-					"<img src=\"images/Bundesarchiv_Bild_183-1987-0801-006,_Berlin,_'Grand_Hotel'.jpg\" />",
-					"Grand Hotel by Peter Heinz Junge, 12 August 1887, hotel opened in 1987."
+					"<img src=\"images/Park_Inn_New.jpg\" />",
+					"Park Inn by ProhibitOnions, 5 May 2006 on Alexanderplatz with new facade. "
 				]
 			]
 		},
@@ -53,14 +53,18 @@ var geoJson = [{
 	}, {
 		"type": "Feature",
 		"properties": {
-			"title": "The Westin",
+			"title": "The Grandhotel and Westin",
 			"marker-size": "medium",
 			"marker-color": "#FF0000",
 			"marker-symbol": "star-stroked",
 			"images": [
 				[
+					"<img src=\"images/Bundesarchiv_Bild_183-1987-0801-006,_Berlin,_'Grand_Hotel'.jpg\" />",
+					"The Grandhotel by Bernd Settnik, 1 August 1987. The Grand Hotel on the corner of Friedrichstrasse and Unter den Linden had 350 rooms and suites, 14 restaurants, cafes, and bars. It was one of the Interhotels where guests had to pay in foreign currency (no East German marks). Each Interhotel had a shop with Western goods for anyone with foreign currency, e.g. dollars or West German marks. Sources: Wikipedia Interhotel and ddr-wissen.de"
+				],
+				[
 					"<img src=\"images/128px-Westin_Grand_Berlin_Friedrichstrasse.jpg\" />",
-					"The Westin by Mklreg, 2006 (own work)."
+					"The Westin by Mklreg, 2006 (own work). Now the Westin is one of the luxury hotels in reunified Berlin."
 				]
 			]
 		},
@@ -74,7 +78,7 @@ var geoJson = [{
 	}, {
 		"type": "Feature",
 		"properties": {
-			"title": "Domhotel",
+			"title": "Domhotel and Hilton",
 			"marker-size": "medium",
 			"marker-color": "#FFFF00",
 			"marker-symbol": "star-stroked",
